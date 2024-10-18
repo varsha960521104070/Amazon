@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Playwrite+BE+VLG&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Hind", sans-serif;
+}
+.fa-map-marker{
+    padding: 0 0 0 30px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin: auto;
+}
+.lo{
+    height: 75px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 0;
+}
+.cart{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.hlo{
+    margin-left: 15px;
+}
+.hi{
+    font-weight: bold;
+}
+.para{
+    margin-left: 10px;
+}
+#select{
+    background-color: rgb(167, 166, 166);
+    height: 50px;
+    width: 50px;
+    border: none;
+    margin-left: 30px;
+    border-radius: 5px 0 0 5px;
+    font-size: 20px;
+}
+.search{
+    height: 50px;
+    padding: 5px 300px 5px 5px;
+    font-size: 18px;
+}
+.fa-search{
+    background-color: rgb(234, 129, 63);
+    height: 30px;
+    width: 30px;
+    padding: 15px 0 5px 20px;
+    border-radius: 0 5px 5px 0;
+}
+#countries{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 5px 0 5px 5px;
+    border: none;
+    font-size: 25px;
+    margin: 30px;
+}
+.order{
+    font-weight: bold;
+    margin-left: 50px;
+}
+.return{
+    margin-left: 30px;
+}
+.second{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: royalblue;
+    color: white;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 50px;
+}
+li{
+    list-style-type: none;
+    padding: 20px;
+}
+.fa-bars{
+    margin-left: 30px;
+}
+.second li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+.second li a section{
+    background-color: royalblue;
+    color: white;
+}
+.unorder-list{
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    display: none;
+    position: absolute;
+    top: 180px;
+    left: -30px;
+    background-color: rgb(202, 197, 197);
+}
+.unorder-list li a{
+    color: black;
+}
+.drop-down li:nth-child(1):hover .unorder-list{
+    display: block;
+}
+.unorder-list li:hover{
+    background-color: #000;
+    color: #fff;
+}
+.unorder-list li a:hover{
+    color: #fff;
+}
+.second i:hover .unorder-list{
+    display: block;
+}
+#fresh .fresh-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#fresh .list li a{
+    font-size: 11px;
+    text-decoration: none;
+    color: #000;
+}
+.fresh-item{
+    color: rgb(25, 220, 25);
+}
+.shop{
+    color: rgb(24, 133, 24);
+    text-align: center;
+    font-size: 35px;
+}
+.shop-img{
+    height: 150px;
+    width: 150px;
+}
+.shop-items{
+   display: inline-block;
+   height: 250px;
+   width: 250px;
+   margin-top: 40px;
+   /* z-index: 2; */
+}
+.category{
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.shop-items h2{
+    font-weight: lighter;
+    margin-top: 40px;
+    /* font-size: 30px; */
+}
+.star-rating{
+    display: flex;
+    margin-right: 20px;
+}
+.star-rating i{
+    margin-top: 10px;
+    margin-left: 5px;
+    color: orange;
+} 
+.popular-products{
+    display: inline-block;
+    margin: 30px 30px;
+}
+.price-of-product{
+    display: flex;
+}
+.price-of-product i{
+    margin-top: 15px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.line{
+    text-decoration: line-through;
+    margin-top: 15px;
+}
+.value{
+    color: blue;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.offer{
+    background-color: rgb(168, 13, 13);
+    color: #fff;
+    width: 70px;
+    padding: 5px 10px;
+    margin: 15px 0;
+}
+sup{
+    font-weight: lighter;
+}
+.add-btn{
+    background-color: rgb(209, 209, 38);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 80px;
+    margin: 20px 0;
+    font-size: 16px;
+}
+.liter, .rate{
+    font-weight: lighter;
+}
+.container-items{
+    margin-left: 8%;
+    margin-top: 20px;
+}
+.popular-products img{
+    height: 150px;
+    width: 150px;
+}
+
